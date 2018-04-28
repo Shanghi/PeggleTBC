@@ -1,0 +1,10 @@
+## Interface: 20400
+## Title: Peggle TBC
+## Version: 1.02c
+## Notes: The popular game Peggle, now for World of Warcraft!
+## Author: PopCap Games Inc.
+## SavedVariables: PeggleData
+## SavedVariablesPerCharacter: PeggleProfile
+## LoadOnDemand: 0
+
+Peggle.lua

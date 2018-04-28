@@ -1,0 +1,35 @@
+Changelog
+
+TBC port (April 26th, 2018) - Pyralis:
+- Now supports being loaded on-demand.
+- Disabled the splash screen by default and added a "Show Splash Screen" option in case you want to see it for some reason.
+- Brag can now use every chat/channel available to you except whispers.
+- Brag can now be used as many times as you want so that you can brag to multiple places.
+- Added "Maximum Chat Lines For /peggleloot" in the options - the default is set to 3 because many servers are strict about how much you can say at once.
+- Added "Maximum Battle Games At Once" in the options - more active battle games will cause more hidden addon messages to be sent in the background.
+- Fixed an error that would happen if you tried to use guild battle options while not in a guild.
+
+TBC port (June 5th, 2016) - Pyralis:
+- Checkmarks show up on the battle list properly now.
+- Brag can use say and yell now.
+- Normally the limit of how many battle games you can start at once is 5. You can open Peggle.lua and near the top change "BattleLimit = 5" to whatever you want. This would cause more hidden addon message spam though, so you may not want to start a lot!
+- The easter egg is extremely ugly now since it used things from WotLK that were removed - click it to banish it!
+
+v1.02
+- Added a new feature that will display a chat notification when the user recieves game data from another user with the original version of Peggle (1.0). This notification will let you know that they are using a very outdated version, and to let them know so they can update, otherwise they can't play with Peggle users with later versions.
+- Added a new option to the options screen, called "Hide Outdated Chat Notifications" which will hide the Peggle 1.0 user notifications.
+- Added new code that will prevent communication from users with outdated Peggle addons. In order to Duel or Battle other players, they will need the same version of Peggle.
+- Added a new Brag window, allowing the user to select what channel to brag the results to (Guild, Party, Raid, or a player-made channel that the user is currently a member of)
+- Changed the "Publish" button to called "Brag" in order to bring the button in line with what it actually does.
+- Removed "Default Publish Channel" from the option screen. This feature is now built into the brag screen.
+
+v1.01a
+- Reactivated the free-ball bucket.
+- Added command "/peggle achievement" to view the easter egg once you've unlocked it.
+
+v1.01
+- Fixed the ColorBline error that would also cause green pegs to stick around.
+- Fixed the challenge mode error that would freak out occasionally with more than 7 participants
+- Other small fixes that would occasionally throw errors
+- Added a outdated version check that will notify you when it detects a newer version being used on the server.
+- Added the command "/peggle resetwindow"  for people who were having problems getting the game back after moving it offscreen.

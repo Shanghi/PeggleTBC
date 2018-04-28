@@ -1,0 +1,8 @@
+## Interface: 20400
+## Title: PeggleLoader
+## Author: Pyralis
+## Version: 1.0
+## Notes: This will load the Peggle addon when you use the /peggle command.
+## DefaultState: Enabled
+
+PeggleLoader.lua
